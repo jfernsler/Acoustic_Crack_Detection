@@ -1,0 +1,16 @@
+###### Acoustic Crack Detection #######
+
+Datasets:
+	Training Size: (160, 1, 128, 128)
+	Validation Size: (40, 1, 128, 128)
+
+Layer Model:
+	Layer 0: InputWaveformLayer
+	Layer 1: ConvolutionalLayer (chan_in:32  chan_out:1  K=5x5)
+	Layer 2: TanhLayer
+	Layer 3: ReLuLayer
+	Layer 4: FlattenLayer
+	Layer 5: FullyConnected (492032, 2)
+	Layer 6: TanhLayer
+	Layer 7: SoftmaxLayer
+	Objective: CrossEntropy
