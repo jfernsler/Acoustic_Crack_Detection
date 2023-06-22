@@ -5,6 +5,8 @@ This is a project was created as an excersise in scratch building deep learning 
 
 Acoustic waveforms are converted into spectrograms and fed into our convolutional neural network to analyze for moments of stress fractures while the sample is under strain.
 
+Please see the writeup for more information
+
 ## Requires
 * pandas 1.0.1
 * matplotlib 3.5.1
