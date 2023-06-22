@@ -1,6 +1,10 @@
 # Acoustic Crack Detection
 Deep Learning Approach for Acoustic Crack Detection
 
+This is a project was created as an excersise in scratch building deep learning layers using only python and numpy to gain a deeper understanding of the mathematics and structure behind the process.
+
+Acoustic waveforms are converted into spectrograms and fed into our convolutional neural network to analyze for moments of stress fractures while the sample is under strain.
+
 ## Requires
 * pandas 1.0.1
 * matplotlib 3.5.1
