@@ -1,3 +1,5 @@
+[See the full writeup for for information](writeup/AcousticCrackDetection_writeup.pdf)
+
 # Acoustic Crack Detection
 Deep Learning Approach for Acoustic Crack Detection
 
